@@ -1,0 +1,123 @@
+/*color barra*/
+nav{
+    background-color: rgb(233, 47, 162);
+}
+
+.navbar-brand{
+    font-family: "Oswald";
+    font-size: 40px;
+    font-weight: bold;
+    text-emphasis-color: #fff;
+}
+
+/*encabezado*/
+
+#encabezado{
+    height: 100vh;
+    background: url("../img/IMG_5166.jpg");
+    background-position: center ;
+    background-repeat: no-repeat;
+    position: relative;
+
+}
+
+#encabezado div{
+    position: absolute;
+    bottom: 40px;
+    width: 100%;
+
+
+}
+
+#encabezado hr{
+    width: 350px;
+    height: 1px;
+
+}
+
+#encabezado h1{
+    font-size: 72px;
+    font-family: "Oswald";
+
+}
+
+#encabezado h1:first-child{
+    font-weight: 100;
+}
+
+#encabezado h1:last-child{
+    font-weight: 600;
+}
+
+@media ( max-width: 576px) {
+ 
+  #encabezado hr{
+    width: 200px;
+    }
+
+    #encabezado h1{
+        font-size: 40px;
+
+    }
+    
+}
+
+/*----seccion sobre mi----*/
+#Sobre_Mi{
+    color:rgba(29, 22, 22, 0.678);
+}
+
+#Sobre_Mi hr{
+    width: 100px;
+    height: 1px;
+}
+
+#Sobre_Mi h4, #Sobre_Mi div:last-child{
+    line-height: 3;
+    font-family: "Open Sans";
+
+}
+
+#Sobre_Mi h4{
+    font-weight: 600;
+}
+
+/*experiencia*/
+#Experiencia div hr{
+    width: 300px;
+    height: 1px;
+}
+
+#Experiencia i{
+    color:rgb(233, 47, 162);
+}
+
+#Experiencia div:last-child article h4:first-child{
+    
+    font-family: "Oswald";
+}
+
+#Experiencia div:last-child article h4:last-child{
+    font-family: "Open Sans";
+    font-weight: 300;
+}
+
+/*Trabajos*/
+
+#Trabajos{
+    background: rgb(233, 47, 162);
+}
+
+#Trabajos div hr{
+    width: 150px;
+    height: 1px;
+    margin-bottom: 5px;
+}
+
+#Trabajos div h1{
+    font-family: "Oswald";
+    font-weight: 500;
+    font-size: 52px;
+
+
+}
