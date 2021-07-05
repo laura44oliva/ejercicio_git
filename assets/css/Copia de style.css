@@ -47,7 +47,6 @@ nav{
 
 #encabezado h1:last-child{
     font-weight: 600;
-    padding-bottom: 5px;
 }
 
 @media ( max-width: 576px) {
@@ -151,9 +150,4 @@ nav{
     font-family: "Oswald";
     font-weight: bold;
     color: whitesmoke;
-}
-
-.card img{
-max-height: 120px;
-
 }
